@@ -1,0 +1,55 @@
+/* Style for the task list */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#categorySelect {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+#taskList {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#taskList div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+div[style*="color: red"] {
+  color: red;
+}
+
+div[style*="color: blue"] {
+  color: blue;
+}
+
+div[style*="color: green"] {
+  color: green;
+}
